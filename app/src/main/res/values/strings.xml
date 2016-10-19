@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GoogleImageSearch</string>
+    <string name="search_list">Search images</string>
+    <string name="search_button_text">Search</string>
+</resources>
