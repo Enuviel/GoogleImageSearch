@@ -106,6 +106,7 @@ public class MainActivity extends AppCompatActivity {
             if (mListOfImages.size() > 0) {
                 mListOfImages.clear();
                 mRVImages.setItemViewCacheSize(0);
+                mGoogleSearchAdapter.notifyDataSetChanged();
                 mCurrentloadsCount = 0;
                 if (debug) Log.w(TAG, "clear mListOfImages");
             }
